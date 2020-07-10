@@ -1,0 +1,9 @@
+node_modules/
+build/
+legacy/
+dist/
+
+libqi/
+audio-context-monkey-patch/
+
+scripts/
