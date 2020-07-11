@@ -1,0 +1,377 @@
+[
+  {
+    "name": "DESERT",
+    "anywhere": true,
+    "bonus": 0
+  },
+  {
+    "name": "RUINE",
+    "anywhere": true,
+    "bonus": 0
+  },
+  {
+    "name": "BÂTIMENT NON-DÉTERRÉ",
+    "anywhere": true,
+    "bonus": 8
+  },
+  {
+    "name": "ABRI ANTI-ATOMIQUE",
+    "minDistance": 10,
+    "maxDistance": 13,
+    "bonus": 15
+  },
+  {
+    "name": "ABRI DE CHANTIER",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "AMBULANCE",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "ANCIEN AÉRODROME",
+    "minDistance": 12,
+    "maxDistance": 15,
+    "bonus": 7
+  },
+  {
+    "name": "ANCIEN COMMISSARIAT",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 11
+  },
+  {
+    "name": "ANCIEN VELIB",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "ARMURERIE GUNS'N'ZOMBIES",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 7
+  },
+  {
+    "name": "ATOMIC' CAFÉ",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "AVANT-POSTE MILITAIRE",
+    "minDistance": 16,
+    "maxDistance": 19,
+    "bonus": 9
+  },
+  {
+    "name": "BAR MITEUX",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 7
+  },
+  {
+    "name": "BIBLIOTHÈQUE DE QUARTIER",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "BRICOTOUT",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 7
+  },
+  {
+    "name": "BUREAU DE POSTE",
+    "minDistance": 8,
+    "maxDistance": 11,
+    "bonus": 7
+  },
+  {
+    "name": "CABANE DE JARDIN",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "CACHE DE CONTREBANDIERS",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 8
+  },
+  {
+    "name": "CAMION EN PANNE",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "CAMION « MAIRIE-MOBILE »",
+    "minDistance": 16,
+    "maxDistance": 19,
+    "bonus": 7
+  },
+  {
+    "name": "CARCASSES DE VOITURES",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "CARLINGUE D'AVION",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "CARRIÈRE EFFONDRÉE",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "CAVEAU FAMILIAL",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 2
+  },
+  {
+    "name": "CAVERNE",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "CAVERNE ANCIENNEMENT HABITÉE",
+    "minDistance": 16,
+    "maxDistance": 19,
+    "bonus": 7
+  },
+  {
+    "name": "CENTRALE HYDRAULIQUE",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 7
+  },
+  {
+    "name": "CHANTIER À L'ABANDON",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "CHAR D'ASSAUT EN PANNE",
+    "minDistance": "21",
+    "maxDistance": 27,
+    "bonus": 9
+  },
+  {
+    "name": "CIMETIÈRE INDIEN",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": -5
+  },
+  {
+    "name": "ECOLE MATERNELLE BRÛLÉE",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "ENTREPÔT DÉSAFFECTÉ",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "EPICERIE FARGO",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "FAST-FOOD",
+    "minDistance": 6,
+    "maxDistance": 9,
+    "bonus": 7
+  },
+  {
+    "name": "GARE DE TRIAGE DÉSERTÉE",
+    "minDistance": 10,
+    "maxDistance": 13,
+    "bonus": 7
+  },
+  {
+    "name": "HANGARS DE STOCKAGE",
+    "minDistance": 15,
+    "maxDistance": 18,
+    "bonus": 7
+  },
+  {
+    "name": "IMMEUBLE DÉLABRÉ",
+    "minDistance": 10,
+    "maxDistance": 13,
+    "bonus": 7
+  },
+  {
+    "name": "KEBAB « CHEZ COLUCHE »",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "LABORATOIRE COSMÉTIQUE",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "LE BAR DES ILLUSIONS PERDUES",
+    "minDistance": "21",
+    "maxDistance": 28,
+    "bonus": 9
+  },
+  {
+    "name": "MAISON D'UN CITOYEN",
+    "minDistance": 1,
+    "maxDistance": 4,
+    "bonus": 7
+  },
+  {
+    "name": "MEUBLES KIELA",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "MINE EFFONDRÉE",
+    "minDistance": 12,
+    "maxDistance": 15,
+    "bonus": 7
+  },
+  {
+    "name": "MINI-MARKET",
+    "minDistance": 8,
+    "maxDistance": 11,
+    "bonus": 7
+  },
+  {
+    "name": "MOTEL « DUSK »",
+    "minDistance": 12,
+    "maxDistance": 15,
+    "bonus": 7
+  },
+  {
+    "name": "PARC À L'ABANDON",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "PARKING DÉSAFFECTÉ",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "PETIT BOIS OBSCUR",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "PETITE MAISON",
+    "minDistance": 2,
+    "maxDistance": 5,
+    "bonus": 7
+  },
+  {
+    "name": "PHARMACIE DÉTRUITE",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 7
+  },
+  {
+    "name": "PUITS ABANDONNÉ",
+    "minDistance": "17",
+    "maxDistance": 20,
+    "bonus": 1
+  },
+  {
+    "name": "RELAIS AUTOROUTIER",
+    "minDistance": 8,
+    "maxDistance": 11,
+    "bonus": 7
+  },
+  {
+    "name": "ROUTE BARRÉE",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 13
+  },
+  {
+    "name": "SILOS À L'ABANDON",
+    "minDistance": 8,
+    "maxDistance": 11,
+    "bonus": 7
+  },
+  {
+    "name": "STAND DE FÊTE FORAINE",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 7
+  },
+  {
+    "name": "SUPERMARCHÉ PILLÉ",
+    "minDistance": 4,
+    "maxDistance": 7,
+    "bonus": 5
+  },
+  {
+    "name": "TENTE D'UN CITOYEN",
+    "minDistance": 12,
+    "maxDistance": 15,
+    "bonus": 11
+  },
+  {
+    "name": "TRANCHÉE AMÉNAGÉE",
+    "minDistance": 5,
+    "maxDistance": 8,
+    "bonus": 9
+  },
+  {
+    "name": "UN ÉTRANGE APPAREIL CIRCULAIRE",
+    "minDistance": "21",
+    "maxDistance": 26,
+    "bonus": 7
+  },
+  {
+    "name": "VIEIL HÔPITAL DE CAMPAGNE",
+    "minDistance": 16,
+    "maxDistance": 19,
+    "bonus": 7
+  },
+  {
+    "name": "VIEILLE POMPE HYDRAULIQUE",
+    "minDistance": 3,
+    "maxDistance": 6,
+    "bonus": 7
+  },
+  {
+    "name": "VILLA DE DUKE",
+    "minDistance": 12,
+    "maxDistance": 15,
+    "bonus": 7
+  },
+  {
+    "name": "VILLA DÉLABRÉE",
+    "minminDistance": 12,
+    "maxDistance": 15,
+    "bonus": 7
+  }
+]
