@@ -8,8 +8,7 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true,
-    "cypress/globals": true
+    "node": true
   },
   "extends": [
     // "eslint:recommended",
@@ -18,11 +17,10 @@
     "prettier/@typescript-eslint",
     "react-app",
     "plugin:react/recommended",
-    "prettier",
-    "plugin:jsx-a11y/recommended",
-    "plugin:cypress/recommended"
+    "prettier"
+    // "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["@typescript-eslint", "react-hooks", "jsx-a11y", "cypress"],
+  "plugins": ["@typescript-eslint", "react-hooks", "jsx-a11y"],
   "rules": {
     "strict": ["error", "global"],
     "curly": "warn",
