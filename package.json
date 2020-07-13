@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "build-storybook": "build-storybook",
+    "dev": "next dev",
     "start": "next start",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
     "@types/yup": "^0.29.3",
@@ -30,6 +30,9 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "fork-ts-checker-webpack-plugin": "^5.0.7",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "sort-package-json": "^1.44.0",
     "ts-loader": "^8.0.0",
     "typescript": "^3.9.6"
   }
