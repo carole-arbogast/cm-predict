@@ -81,3 +81,53 @@ export const previousNights = [
     cp: -36,
   },
 ];
+
+export const scoreDisplays = [
+  {
+    range: [-Infinity, 2],
+    display:
+      "Vous estimez que vos chances de survie ici sont quasi nulles… Autant gober du cyanure tout de suite.",
+    code: "poison",
+  },
+  {
+    range: [2, 6],
+    display:
+      "Vous estimez que vos chances de survie ici sont très faibles. Peut-être que vous aimez jouer à pile ou face ?",
+    code: "reallyLow",
+  },
+  {
+    range: [6, 10],
+    display: "Vous estimez que vos chances de survie ici sont faibles. Difficile à dire.",
+    code: "low",
+  },
+  {
+    range: [10, 13],
+    display:
+      "Vous estimez que vos chances de survie ici sont limitées, bien que ça puisse se tenter. Mais un accident est vite arrivé…",
+    code: "limited",
+  },
+  {
+    range: [13, 16],
+    display:
+      "Vous estimez que vos chances de survie ici sont à peu près satisfaisantes, pour peu qu'aucun imprévu ne vous tombe dessus.",
+    code: "satisfactory",
+  },
+  {
+    range: [16, 18.9],
+    display:
+      "Vous estimez que vos chances de survie ici sont correctes : il ne vous reste plus qu'à croiser les doigts !",
+    code: "decent",
+  },
+  {
+    range: [18, 20],
+    display:
+      "Vous estimez que vos chances de survie ici sont élevées : vous devriez pouvoir passer la nuit ici. (Ermite)",
+    code: "high",
+  },
+  {
+    range: [20, Infinity],
+    display:
+      "Vous estimez que vos chances de survie ici sont optimales : Personne ne vous verrait même en vous pointant du doigt. (Ermite)",
+    code: "optimal",
+  },
+];

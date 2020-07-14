@@ -1,10 +1,16 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import { distanceInfo, hiddenCampers, bonusInfo, previousNights } from "../../data/general";
+import {
+  distanceInfo,
+  hiddenCampers,
+  bonusInfo,
+  previousNights,
+  scoreDisplays,
+} from "../../data/general";
 import buildings from "../../data/buildings.json";
 import sum from "lodash/sum";
 import get from "lodash/get";
-import * as yup from 'yup';
+import * as yup from "yup";
 import styled from "styled-components";
 
 interface FormValues {
@@ -27,26 +33,55 @@ interface FormValues {
 }
 
 const Schema = yup.object().shape({
-  cityType: yup.string().matches(/(RE|Pandé)/).required("Champ requis"),
-  job: yup.string().matches(/ermite|capuche|autre/).required("Champ requis"), 
-  previousNights: yup.number().min(0, "Le nombre doit être compris entre 0 et 8").max(8, "Le nombre doit être compris entre 0 et 8").required("Champ requis"),
+  cityType: yup
+    .string()
+    .matches(/(RE|Pandé)/)
+    .required("Champ requis"),
+  job: yup
+    .string()
+    .matches(/ermite|capuche|autre/)
+    .required("Champ requis"),
+  previousNights: yup
+    .number()
+    .min(0, "Le nombre doit être compris entre 0 et 8")
+    .max(8, "Le nombre doit être compris entre 0 et 8")
+    .required("Champ requis"),
   pro: yup.bool(),
-  distance: yup.number().min(1, "Le nombre doit être compris entre 1 et 28").max(28, "Le nombre doit être compris entre 1 et 28").required("Champ requis"),
+  distance: yup
+    .number()
+    .min(1, "Le nombre doit être compris entre 1 et 28")
+    .max(28, "Le nombre doit être compris entre 1 et 28")
+    .required("Champ requis"),
   zombies: yup.number().min(0, "Le nombre ne peut pas être négatif").required("Champ requis"),
   building: yup.string(),
-  improvements: yup.number().min(0, "Le nombre doit être compris entre 0 et 10").max(10, "Le nombre doit être compris entre 0 et 8"),
-  od: yup.number().min(0, "Le nombre doit être compris entre 0 et 5").max(5, "Le nombre doit être compris entre 0 et 5"),
-  campers: yup.number().min(0, "Le nombre doit être compris entre 0 et 6").max(6, "Le nombre doit être compris entre 0 et 6"),
-  tent: yup.number().min(0, "Le nombre doit être compris entre 0 et 9").max(9, "Le nombre doit être compris entre 0 et 9"),
+  improvements: yup
+    .number()
+    .min(0, "Le nombre doit être compris entre 0 et 10")
+    .max(10, "Le nombre doit être compris entre 0 et 10"),
+  od: yup
+    .number()
+    .min(0, "Le nombre doit être compris entre 0 et 6")
+    .max(6, "Le nombre doit être compris entre 0 et 6"),
+  campers: yup
+    .number()
+    .min(0, "Le nombre doit être compris entre 0 et 6")
+    .max(6, "Le nombre doit être compris entre 0 et 6"),
+  tent: yup
+    .number()
+    .min(0, "Le nombre doit être compris entre 0 et 9")
+    .max(9, "Le nombre doit être compris entre 0 et 9"),
   tomb: yup.bool(),
   night: yup.bool(),
   lighthouse: yup.bool(),
   hood: yup.bool(),
-  devastation: yup.bool()
-})
+  devastation: yup.bool(),
+});
 
 function Predict() {
   const [currentDistance, setCurrentDistance] = React.useState<number>(0);
+  const [currentJob, setCurrentJob] = React.useState<"ermite" | "capuche" | "autre">("autre");
+  // const [message, setMessage] = React.useState<string>("");
+  const [scoreDifference, setScoreDifference] = React.useState<number>();
 
   const filteredBuildings = buildings.filter((building) => {
     return (
@@ -75,7 +110,11 @@ function Predict() {
   };
 
   const calculateScore = (values: FormValues) => {
-    const distance = get(distanceInfo.find((e) => e.km === values.distance), "bonus", 0);
+    const distance = get(
+      distanceInfo.find((e) => e.km === values.distance),
+      "bonus",
+      0
+    );
     const zombies = values.hood ? -(0.6 * values.zombies) : -(1.4 * values.zombies);
     const od = 1.8 * values.od;
     const campers = hiddenCampers[values.campers];
@@ -116,24 +155,65 @@ function Predict() {
       previousNightsMalus,
       cityType,
     ]);
+
     return result;
+  };
+
+  const handleSubmit = (values: FormValues) => {
+    setCurrentDistance(values.distance);
+    if (values.job !== currentJob) {
+      setCurrentJob(values.job);
+    }
+
+    const result = calculateScore(values);
+
+    const getDifference = () => {
+      if (values.job === "ermite") {
+        return result - 20;
+      } else {
+        return result - 18;
+      }
+    };
+    const diff = getDifference();
+
+    const getDisplayedScore = () => {
+      if (values.job === "ermite" && result > 20) {
+        return 20;
+      } else if (values.job !== "ermite" && result > 18) {
+        return 18;
+      } else {
+        return result;
+      }
+    };
+
+    const displayedScore = getDisplayedScore();
+
+    setScoreDifference(Math.round(diff * 10) / 10);
+    setScore(Math.round(displayedScore * 10) / 10);
   };
 
   const [score, setScore] = React.useState<number>(calculateScore(initialValues));
 
-  const handleSubmit = (values: FormValues) => {
-    setCurrentDistance(values.distance);
-
-    const result = calculateScore(values);
-
-    setScore(result);
-  };
+  const message = scoreDisplays.filter((display) => {
+    return score >= display.range[0] && score < display.range[1];
+  })[0].display;
 
   return (
     <>
       <h1>Camping Predict v2</h1>
-      <p>Score: {score}/20</p>
-      <Formik enableReinitialize initialValues={initialValues} onSubmit={handleSubmit} validationSchema={Schema}>
+      <p>
+        Score: {score}/{currentJob === "ermite" ? "20" : "18"} (
+        {scoreDifference && scoreDifference > 0 ? `+ ${scoreDifference}` : scoreDifference})
+      </p>
+      <p>
+        {score > 0 ? score * 5 : 0}% : {message && message}
+      </p>
+      <Formik
+        enableReinitialize
+        initialValues={initialValues}
+        onSubmit={handleSubmit}
+        validationSchema={Schema}
+      >
         {({ handleChange, submitForm }) => (
           <Form
             onChange={(e) => {
@@ -159,7 +239,7 @@ function Predict() {
               <label>Ermite</label>
 
               <Field type="radio" name="job" value="capuche"></Field>
-              <label>Capuche</label>
+              <label>Éclaireur</label>
 
               <Field type="radio" name="job" value="autre"></Field>
               <label>Autre</label>
@@ -171,13 +251,11 @@ function Predict() {
               <Field type="number" name="previousNights" min="0" max="8"></Field>
               <ErrorMessage component={WarningMessage} name="previousNights"></ErrorMessage>
             </div>
-            
 
             <div>
               <label>Campeur Pro</label>
               <Field type="checkbox" name="pro"></Field>
               <ErrorMessage component={WarningMessage} name="pro"></ErrorMessage>
-
             </div>
 
             <h2>Case de camping</h2>
@@ -185,7 +263,6 @@ function Predict() {
               <label>Distance (km)</label>
               <Field type="number" name="distance" min="1" max="28"></Field>
               <ErrorMessage component={WarningMessage} name="distance"></ErrorMessage>
-
             </div>
             <div>
               <label>Bâtiment</label>
@@ -198,35 +275,30 @@ function Predict() {
                 ))}
               </Field>
               <ErrorMessage component={WarningMessage} name="building"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Nombre de zombies</label>
               <Field type="number" name="zombies" min="0"></Field>
               <ErrorMessage component={WarningMessage} name="zombies"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Nombre d'améliorations</label>
               <Field type="number" name="improvements" min="0" max="10"></Field>
               <ErrorMessage component={WarningMessage} name="improvements"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Nombre d'ODs</label>
-              <Field type="number" name="od" min="0" max="5"></Field>
+              <Field type="number" name="od" min="0" max="6"></Field>
               <ErrorMessage component={WarningMessage} name="od"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Nombre de campeurs cachés</label>
               <Field type="number" name="campers" max="6"></Field>
               <ErrorMessage component={WarningMessage} name="campers"></ErrorMessage>
-
             </div>
 
             <h2>Bonus/Malus</h2>
@@ -235,42 +307,38 @@ function Predict() {
               <label>Toile de tente/pelure de peau</label>
               <Field type="number" name="tent"></Field>
               <ErrorMessage component={WarningMessage} name="tent"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Tombe</label>
               <Field type="checkbox" name="tomb"></Field>
               <ErrorMessage component={WarningMessage} name="tomb"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Nuit</label>
               <Field type="checkbox" name="night"></Field>
               <ErrorMessage component={WarningMessage} name="night"></ErrorMessage>
-
             </div>
 
             <div>
               <label>Phare</label>
               <Field type="checkbox" name="lighthouse"></Field>
               <ErrorMessage component={WarningMessage} name="lighthouse"></ErrorMessage>
-
             </div>
 
-            <div>
-              <label>Capuche</label>
-              <Field type="checkbox" name="hood"></Field>
-              <ErrorMessage component={WarningMessage} name="hood"></ErrorMessage>
-
-            </div>
+            {currentJob === "capuche" && (
+              <div>
+                <label>Mode Furtif (si capuche active)</label>
+                <Field type="checkbox" name="hood"></Field>
+                <ErrorMessage component={WarningMessage} name="hood"></ErrorMessage>
+              </div>
+            )}
 
             <div>
               <label>Ville dévastée</label>
               <Field type="checkbox" name="devastation"></Field>
               <ErrorMessage component={WarningMessage} name="devastation"></ErrorMessage>
-
             </div>
           </Form>
         )}
@@ -279,8 +347,8 @@ function Predict() {
   );
 }
 
-const WarningMessage= styled.p`
+const WarningMessage = styled.p`
   color: red;
-`
+`;
 
 export default Predict;
