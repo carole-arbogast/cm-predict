@@ -25,6 +25,7 @@ function CustomNumberField({ name, min, max, onChange }: Props) {
 
 const NumberFieldWrapper = styled.div`
   display: flex;
+  height: 2.25rem;
 `;
 
 const NumberField = styled(Field)`

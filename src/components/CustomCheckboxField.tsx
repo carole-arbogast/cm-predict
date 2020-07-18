@@ -26,8 +26,8 @@ const Box = styled.div<{ isChecked?: boolean }>`
   justify-content: center;
   align-items: center;
   border: 1px solid grey;
-  width: 2rem;
-  height: 2rem;
+  width: 2.25rem;
+  height: 2.25rem;
   background-color: ${(props) => (props.isChecked ? "#293042" : "#402e26")};
 `;
 
@@ -39,7 +39,7 @@ const Checkbox = styled(Field)`
 
 const StyledCheckboxLabel = styled.label<{ isChecked?: boolean }>`
   display: flex;
-  width: 4rem;
+  width: 4.5rem;
 
   &:hover {
     cursor: pointer;

@@ -30,9 +30,9 @@ export function CustomRadioField({ isChecked, value, label, name, img }: Props) 
 }
 
 const StyledRadioButton = styled.input`
-  opacity: 0;
   position: fixed;
   width: 0;
+  display: none;
 
   &:hover {
     cursor: pointer;
@@ -45,8 +45,7 @@ const StyledRadioLabel = styled.label<{ isChecked?: boolean; isFieldFocused?: bo
 
   padding: 0.5rem;
   border: ${(props) => (props.isFieldFocused ? "1px solid black" : "1px solid grey")};
-  border-radius: 4px;
-  margin: 0.5rem;
+  margin: 0 0.5rem 0 0;
 
   &:hover {
     cursor: pointer;

@@ -61,9 +61,18 @@ function Predict() {
 
     const currentBonusList = bonusInfo.filter((b) => values[b.name]);
 
-    const buildingBonus = values.building
-      ? buildings.find((b) => b.name === values.building).bonus
-      : 0;
+    const getBuildingBonus = () => {
+      if (values.building) {
+        const match = buildings.find((b) => b.name === values.building);
+        if (values.distance >= match.minDistance && values.distance <= match.maxDistance) {
+          return match.bonus;
+        }
+      } else {
+        return 0;
+      }
+    };
+
+    const buildingBonus = getBuildingBonus();
 
     const cityType = values.cityType === "Pandé" ? -10 : 0;
 
@@ -187,17 +196,30 @@ const Title = styled.h1`
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ResultDisplay = styled.div`
+  position: sticky;
   display: flex;
   flex-direction: column;
-  max-width: 20%;
+  width: 20%;
   border: 1px solid grey;
   margin-right: 1rem;
   align-self: flex-start;
   padding: 0.5rem;
   background: #372821;
+  top: 1rem;
+
+  @media (max-width: 768px) {
+    width: 95%;
+    margin: 0.75rem auto;
+    top: 0;
+  }
 `;
 
 const FormContainer = styled.div`
@@ -207,6 +229,11 @@ const FormContainer = styled.div`
   padding: 1.5rem;
   width: 65%;
   background: #5c2b20;
+
+  @media (max-width: 768px) {
+    width: 95%;
+    margin: 0.75rem auto;
+  }
 `;
 
 const Banner = styled.img`
