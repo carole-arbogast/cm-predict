@@ -4,8 +4,9 @@ import CustomRadioField from "./CustomRadioField";
 import CustomNumberField from "./CustomNumberField";
 import CustomCheckboxField from "./CustomCheckboxField";
 
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, ErrorMessage } from "formik";
 import * as yup from "yup";
+import CustomSelectField from "./CustomSelectField";
 
 const Schema = yup.object().shape({
   cityType: yup
@@ -104,6 +105,7 @@ export function CampingPredictForm({
           } else {
             setFieldValue(name, values[name] + 1);
           }
+          submitForm();
         };
         return (
           <Form
@@ -112,58 +114,63 @@ export function CampingPredictForm({
               submitForm();
             }}
           >
+            <SectionHeader>Général</SectionHeader>
+
             <FormSection>
-              <h2>Général</h2>
+              <FieldGroup>
+                <Label>Type de ville</Label>
+                <div>
+                  <CustomRadioField
+                    name="cityType"
+                    img="/images/r_explor.gif"
+                    value="RE"
+                    isChecked={values.cityType === "RE"}
+                  ></CustomRadioField>
 
-              <label>Type de ville</label>
-              <div>
-                <CustomRadioField
-                  name="cityType"
-                  img="/images/r_explor.gif"
-                  value="RE"
-                  isChecked={values.cityType === "RE"}
-                ></CustomRadioField>
-
-                <CustomRadioField
-                  name="cityType"
-                  img="/images/r_cannib.gif"
-                  value="Pandé"
-                  isChecked={values.cityType === "Pandé"}
-                ></CustomRadioField>
-              </div>
+                  <CustomRadioField
+                    name="cityType"
+                    img="/images/r_cannib.gif"
+                    value="Pandé"
+                    isChecked={values.cityType === "Pandé"}
+                  ></CustomRadioField>
+                </div>
+              </FieldGroup>
               <ErrorMessage component={WarningMessage} name="cityType"></ErrorMessage>
 
-              <label>Métier</label>
-              <div>
-                <CustomRadioField
-                  name="job"
-                  img="/images/r_jermit.gif"
-                  value="ermite"
-                  label="Ermite"
-                  isChecked={values.job === "ermite"}
-                ></CustomRadioField>
+              <FieldGroup>
+                <Label>Métier</Label>
+                <div>
+                  <CustomRadioField
+                    name="job"
+                    img="/images/r_jermit.gif"
+                    value="ermite"
+                    label="Ermite"
+                    isChecked={values.job === "ermite"}
+                  ></CustomRadioField>
 
-                <CustomRadioField
-                  name="job"
-                  img="/images/item_vest_on.gif"
-                  value="capuche"
-                  label="Éclaireur"
-                  isChecked={values.job === "capuche"}
-                ></CustomRadioField>
+                  <CustomRadioField
+                    name="job"
+                    img="/images/item_vest_on.gif"
+                    value="capuche"
+                    label="Éclaireur"
+                    isChecked={values.job === "capuche"}
+                  ></CustomRadioField>
 
-                <CustomRadioField
-                  name="job"
-                  img="/images/class_1.gif"
-                  value="autre"
-                  label="Autre"
-                  isChecked={values.job === "autre"}
-                ></CustomRadioField>
-              </div>
+                  <CustomRadioField
+                    name="job"
+                    img="/images/class_1.gif"
+                    value="autre"
+                    label="Autre"
+                    isChecked={values.job === "autre"}
+                  ></CustomRadioField>
+                </div>
+              </FieldGroup>
               <ErrorMessage component={WarningMessage} name="job"></ErrorMessage>
 
-              <div>
-                <HordesIcon src="/images/r_camp.gif"></HordesIcon>
-                <label>Camping effectués</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/r_camp.gif"></HordesIcon> Camping effectués
+                </Label>
                 <CustomNumberField
                   name="previousNights"
                   min="0"
@@ -172,50 +179,56 @@ export function CampingPredictForm({
                 />
 
                 <ErrorMessage component={WarningMessage} name="previousNights"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/r_cmplst.gif"></HordesIcon>
-                <label>Campeur Pro</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/r_cmplst.gif"></HordesIcon> Campeur Pro
+                </Label>
                 <CustomCheckboxField
                   name="pro"
                   isChecked={values.pro === true}
                 ></CustomCheckboxField>
                 <ErrorMessage component={WarningMessage} name="pro"></ErrorMessage>
-              </div>
+              </FieldGroup>
             </FormSection>
+            <SectionHeader>Case de camping</SectionHeader>
 
             <FormSection>
-              <h2>Case de camping</h2>
-              <div>
-                <HordesIcon src="/images/item_tagger.gif"></HordesIcon>
-                <label>Distance (km)</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/item_tagger.gif"></HordesIcon> Distance (km)
+                </Label>
                 <CustomNumberField name="distance" min="1" max="28" onChange={handleNumberChange} />
                 <ErrorMessage component={WarningMessage} name="distance"></ErrorMessage>
-              </div>
-              <div>
-                <HordesIcon src="/images/small_castle.gif"></HordesIcon>
-                <label>Bâtiment</label>
-                <Field component="select" name="building">
-                  <option value=""> -- </option>
-                  {filteredBuildings.map((building) => (
-                    <option key={building.name} value={building.name}>
-                      {building.name}
-                    </option>
-                  ))}
-                </Field>
+              </FieldGroup>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/small_castle.gif"></HordesIcon> Bâtiment
+                </Label>
+                <CustomSelectField
+                  options={filteredBuildings.map((b) => b.name)}
+                  onFieldChange={(value) => {
+                    setFieldValue("building", value);
+                    submitForm();
+                  }}
+                  value={values.building}
+                />
                 <ErrorMessage component={WarningMessage} name="building"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/r_dcity.gif"></HordesIcon> <label>Nombre de zombies</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/r_dcity.gif"></HordesIcon>Nombre de zombies
+                </Label>
                 <CustomNumberField name="zombies" min="0" onChange={handleNumberChange} />
                 <ErrorMessage component={WarningMessage} name="zombies"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/small_pa.gif"></HordesIcon>
-                <label>Nombre d&apos;améliorations</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/small_pa.gif"></HordesIcon>Nombre d&apos;améliorations
+                </Label>
                 <CustomNumberField
                   name="improvements"
                   min="0"
@@ -224,68 +237,90 @@ export function CampingPredictForm({
                 />
 
                 <ErrorMessage component={WarningMessage} name="improvements"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/item_door.gif"></HordesIcon>
-                <label>Nombre d&apos;ODs</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/item_door.gif"></HordesIcon>Nombre d&apos;ODs
+                </Label>
                 <CustomNumberField name="od" min="0" max="6" onChange={handleNumberChange} />
 
                 <ErrorMessage component={WarningMessage} name="od"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/status_tired.gif"></HordesIcon>
-                <label>Nombre de campeurs cachés</label>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/status_tired.gif"></HordesIcon>Nombre de campeurs cachés
+                </Label>
                 <CustomNumberField name="campers" min="0" max="6" onChange={handleNumberChange} />
                 <ErrorMessage component={WarningMessage} name="campers"></ErrorMessage>
-              </div>
+              </FieldGroup>
             </FormSection>
-            <FormSection>
-              <h2>Bonus/Malus</h2>
+            <SectionHeader>Bonus/Malus</SectionHeader>
 
-              <div>
-                <HordesIcon src="/images/item_smelly_meat.gif"></HordesIcon>
-                <label>Toile de tente/pelure de peau</label>
+            <FormSection>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/item_smelly_meat.gif"></HordesIcon>Tente/pelure
+                </Label>
                 <CustomNumberField name="tent" min="0" max="9" onChange={handleNumberChange} />
                 <ErrorMessage component={WarningMessage} name="tent"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/item_pelle.gif"></HordesIcon>
-                <label>Tombe</label>
-                <Field type="checkbox" name="tomb"></Field>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/item_pelle.gif"></HordesIcon>Tombe
+                </Label>
+                <CustomCheckboxField
+                  name="tomb"
+                  isChecked={values.tomb === true}
+                ></CustomCheckboxField>
                 <ErrorMessage component={WarningMessage} name="tomb"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/small_camp.gif"></HordesIcon>
-                <label>Nuit</label>
-                <Field type="checkbox" name="night"></Field>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/small_camp.gif"></HordesIcon>Nuit
+                </Label>
+                <CustomCheckboxField
+                  name="night"
+                  isChecked={values.night === true}
+                ></CustomCheckboxField>
                 <ErrorMessage component={WarningMessage} name="night"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
-              <div>
-                <HordesIcon src="/images/small_lighthouse.gif"></HordesIcon>
-                <label>Phare</label>
-                <Field type="checkbox" name="lighthouse"></Field>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/small_lighthouse.gif"></HordesIcon>Phare
+                </Label>
+                <CustomCheckboxField
+                  name="lighthouse"
+                  isChecked={values.lighthouse === true}
+                ></CustomCheckboxField>
                 <ErrorMessage component={WarningMessage} name="lighthouse"></ErrorMessage>
-              </div>
+              </FieldGroup>
 
               {currentJob === "capuche" && (
-                <div>
-                  <label>Mode Furtif (si capuche active)</label>
-                  <Field type="checkbox" name="hood"></Field>
+                <FieldGroup>
+                  <Label>Mode Furtif (si capuche active)</Label>
+                  <CustomCheckboxField
+                    name="hood"
+                    isChecked={values.hood === true}
+                  ></CustomCheckboxField>
                   <ErrorMessage component={WarningMessage} name="hood"></ErrorMessage>
-                </div>
+                </FieldGroup>
               )}
 
-              <div>
-                <HordesIcon src="/images/item_out_def_broken.gif"></HordesIcon>
-                <label>Ville dévastée</label>
-                <Field type="checkbox" name="devastation"></Field>
+              <FieldGroup>
+                <Label>
+                  <HordesIcon src="/images/item_out_def_broken.gif"></HordesIcon>Ville dévastée
+                </Label>
+                <CustomCheckboxField
+                  name="devastation"
+                  isChecked={values.devastation === true}
+                ></CustomCheckboxField>
                 <ErrorMessage component={WarningMessage} name="devastation"></ErrorMessage>
-              </div>
+              </FieldGroup>
             </FormSection>
           </Form>
         );
@@ -294,13 +329,31 @@ export function CampingPredictForm({
   );
 }
 
+const SectionHeader = styled.h2`
+  margin: 0.75rem 0;
+`;
+const FieldGroup = styled.div`
+  margin: 0.75rem 2.5rem 0.75rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`;
+
+const Label = styled.label`
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+`;
+
 const WarningMessage = styled.p`
   color: red;
 `;
 
 const FormSection = styled.div`
-  border-bottom: 1px solid lightgray;
   padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.1);
 `;
 
 const HordesIcon = styled.img`
