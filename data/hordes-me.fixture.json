@@ -1,0 +1,6577 @@
+{
+  "id": 203868,
+  "map": {
+    "city": {
+      "door": true,
+      "hard": false,
+      "water": 39,
+      "chaos": false,
+      "name": "Attraction du Vent Fou",
+      "devast": false,
+      "x": 18,
+      "y": 9
+    },
+    "date": "2020-07-21 11:30:25",
+    "days": 13,
+    "citizens": [
+      {
+        "hero": true,
+        "name": "92izimoney",
+        "x": 16,
+        "y": 20,
+        "id": 4577,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "AcideA7X",
+        "x": 19,
+        "y": 2,
+        "id": 797983,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "adn56",
+        "x": 16,
+        "y": 2,
+        "id": 73638,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Amora",
+        "x": 16,
+        "y": 20,
+        "id": 793763,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "ananais",
+        "x": 18,
+        "y": 8,
+        "id": 541836,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Andy-Kap",
+        "x": 19,
+        "y": 2,
+        "id": 390149,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "AngelSorrow",
+        "x": 19,
+        "y": 2,
+        "id": 992627,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Argo",
+        "x": 16,
+        "y": 2,
+        "id": 831498,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Axcess",
+        "x": 16,
+        "y": 2,
+        "id": 329645,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "BLACKBEARD",
+        "x": 16,
+        "y": 2,
+        "id": 994073,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Cuchulainn",
+        "x": 18,
+        "y": 8,
+        "id": 908965,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Danskophile",
+        "x": 19,
+        "y": 2,
+        "id": 128329,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Declan_Reed",
+        "x": 16,
+        "y": 20,
+        "id": 930791,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Dweeb",
+        "x": 16,
+        "y": 20,
+        "id": 430760,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Elladan",
+        "x": 16,
+        "y": 2,
+        "id": 976439,
+        "job": "tamer",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "engu",
+        "x": 18,
+        "y": 0,
+        "id": 273389,
+        "job": "tamer",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Erraiik",
+        "x": 21,
+        "y": 14,
+        "id": 646106,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Etoile_de_Feu",
+        "x": 18,
+        "y": 9,
+        "id": 707608,
+        "job": "guardian",
+        "out": false,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Fregaton",
+        "x": 18,
+        "y": 8,
+        "id": 1003225,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Friare",
+        "x": 18,
+        "y": 8,
+        "id": 699696,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "kebsox",
+        "x": 18,
+        "y": 8,
+        "id": 118374,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Killboy",
+        "x": 19,
+        "y": 2,
+        "id": 203868,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "klaustro",
+        "x": 18,
+        "y": 0,
+        "id": 363345,
+        "job": "hunter",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Lagou",
+        "x": 16,
+        "y": 16,
+        "id": 886850,
+        "job": "hunter",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Mic",
+        "x": 23,
+        "y": 14,
+        "id": 976670,
+        "job": "hunter",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Nami",
+        "x": 21,
+        "y": 14,
+        "id": 116146,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Psy_cho_pathe",
+        "x": 18,
+        "y": 8,
+        "id": 962860,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Salvos",
+        "x": 18,
+        "y": 0,
+        "id": 941726,
+        "job": "tech",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Shergan",
+        "x": 23,
+        "y": 14,
+        "id": 414405,
+        "job": "hunter",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "SHRED",
+        "x": 21,
+        "y": 14,
+        "id": 558683,
+        "job": "tamer",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "shurikeno",
+        "x": 18,
+        "y": 0,
+        "id": 238439,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Soraaz",
+        "x": 18,
+        "y": 8,
+        "id": 32424,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Spadax",
+        "x": 18,
+        "y": 8,
+        "id": 416824,
+        "job": "tamer",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Strike2poulet",
+        "x": 18,
+        "y": 8,
+        "id": 929749,
+        "job": "hunter",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "TheCraft",
+        "x": 18,
+        "y": 8,
+        "id": 980518,
+        "job": "tamer",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Tim",
+        "x": 18,
+        "y": 0,
+        "id": 654281,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "TinyDuckV1",
+        "x": 18,
+        "y": 8,
+        "id": 670275,
+        "job": "guardian",
+        "out": true,
+        "isGhost": false
+      },
+      {
+        "hero": true,
+        "name": "Trist",
+        "x": 18,
+        "y": 9,
+        "id": 506071,
+        "job": "guardian",
+        "out": false,
+        "isGhost": false
+      }
+    ],
+    "season": 14,
+    "id": 384467,
+    "hei": 27,
+    "wid": 27,
+    "cadavers": [
+      {
+        "name": "Jerrycane",
+        "dtype": 5,
+        "season": 14,
+        "avatar": "//imgup.motion-twin.com/twinoid/8/7/dd68aef3_984302_100x100.jpg",
+        "id": 464767,
+        "day": 6,
+        "msg": "Mais bordel, j'étais en opti",
+        "comment": "",
+        "cleanup": {
+          "type": "cook",
+          "user": null
+        },
+        "twinId": 984302
+      },
+      {
+        "name": "ThomasLMB",
+        "dtype": 1,
+        "season": 14,
+        "avatar": "//imgup.motion-twin.com/twinoid/8/6/493d25bb_1657369_100x100.jpg",
+        "id": 474568,
+        "day": 5,
+        "msg": "",
+        "comment": "",
+        "cleanup": {
+          "type": "garbage",
+          "user": "Andy-Kap"
+        },
+        "twinId": 1657369
+      }
+    ],
+    "zones": [
+      {
+        "building": null,
+        "x": 0,
+        "y": 0,
+        "id": 112680559,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 0,
+        "id": 112680560,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Le dépôt d'un grand magasin qui a certainement déposé son bilan il y a bien longtemps. Enfin, c'est ce que laisse supposer la présence d'une trentaine de corps pendus dans le hangar numéro 2. Vous supposez qu'il s'agit du conseil d'administration ; reste à savoir s'il s'agit d'un suicide collectif (le fait qu'ils aient les mains attachées vous laisse perplexe).",
+          "name": "Hangars de stockage",
+          "type": 47,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 2,
+        "y": 0,
+        "id": 112680561,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 0,
+        "id": 112680562,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 0,
+        "id": 112680563,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 0,
+        "id": 112680564,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 0,
+        "id": 112680565,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 0,
+        "id": 112680566,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 0,
+        "id": 112680567,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 0,
+        "id": 112680568,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 0,
+        "id": 112680569,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 0,
+        "id": 112680570,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 0,
+        "id": 112680571,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 0,
+        "id": 112680572,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 0,
+        "id": 112680573,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 0,
+        "id": 112680574,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "L'imposant bâtiment s'étend sur plusieurs centaines de mètres. Il est divisé en nombreuses salles mais beaucoup se sont effondrées il y a bien longtemps. Si on en croit les nombreux impacts de balles et les barricades improvisées, <strong>ce commissariat a été le théâtre d'affrontements particulièrement violents</strong>.",
+          "name": "Ancien commissariat",
+          "type": 8,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 16,
+        "y": 0,
+        "id": 112680575,
+        "nvt": false,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 0,
+        "id": 112680576,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 0,
+        "id": 112680577,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 0,
+        "id": 112680578,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 0,
+        "id": 112680579,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 0,
+        "id": 112680580,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 0,
+        "id": 112680581,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 0,
+        "id": 112680582,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 0,
+        "id": 112680583,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 0,
+        "id": 112680584,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 0,
+        "id": 112680585,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 1,
+        "id": 112680586,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 1,
+        "id": 112680587,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 1,
+        "id": 112680588,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 1,
+        "id": 112680589,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 1,
+        "id": 112680590,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 1,
+        "id": 112680591,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Une ancienne mine qui n'a pas résisté aux outrages du temps. Dieu sait quel genre de lubie pouvait pousser les gens de l'époque à creuser si profond pour trouver quelque chose d'utile. Surtout quand il suffit d'à peine gratter le sol pour dégoter un délicieux cafard à manger. « Tiens, j'ai faim », pensez-vous.",
+          "name": "Mine effondrée",
+          "type": 52,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 6,
+        "y": 1,
+        "id": 112680592,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 1,
+        "id": 112680593,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 1,
+        "id": 112680594,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 1,
+        "id": 112680595,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 1,
+        "id": 112680596,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 1,
+        "id": 112680597,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 1,
+        "id": 112680598,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 1,
+        "id": 112680599,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 1,
+        "id": 112680600,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 1,
+        "id": 112680601,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 1,
+        "id": 112680602,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 1,
+        "id": 112680603,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 1,
+        "id": 112680604,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 1,
+        "id": 112680605,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 1,
+        "id": 112680606,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 1,
+        "id": 112680607,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 1,
+        "id": 112680608,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 1,
+        "id": 112680609,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 1,
+        "id": 112680610,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 1,
+        "id": 112680611,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 1,
+        "id": 112680612,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 2,
+        "id": 112680613,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 2,
+        "id": 112680614,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 2,
+        "id": 112680615,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 2,
+        "id": 112680616,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 2,
+        "id": 112680617,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 2,
+        "id": 112680618,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 2,
+        "id": 112680619,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 2,
+        "id": 112680620,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 2,
+        "id": 112680621,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 2,
+        "id": 112680622,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 2,
+        "id": 112680623,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 2,
+        "id": 112680624,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 2,
+        "id": 112680625,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 2,
+        "id": 112680626,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 2,
+        "id": 112680627,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 2,
+        "id": 112680628,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 2,
+        "id": 112680629,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 2,
+        "id": 112680630,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 2,
+        "id": 112680631,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "dried": false,
+        "h": 24,
+        "x": 19,
+        "y": 2,
+        "z": 11,
+        "id": 112680632,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 2,
+        "id": 112680633,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "A une certaine époque, c'était sûrement le coin le plus branché de toute l'autoroute A217, avec ses bières frelatées, son odeur d'urine et ses rats morts sur le comptoir. Personne avant vous ne semble s'y être arrêté depuis des lustres.",
+          "name": "Relais autoroutier",
+          "type": 61,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 21,
+        "y": 2,
+        "id": 112680634,
+        "nvt": false,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 2,
+        "id": 112680635,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 2,
+        "id": 112680636,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 2,
+        "id": 112680637,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 2,
+        "id": 112680638,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 2,
+        "id": 112680639,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 3,
+        "id": 112680640,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 3,
+        "id": 112680641,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 3,
+        "id": 112680642,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 3,
+        "id": 112680643,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 3,
+        "id": 112680644,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 3,
+        "id": 112680645,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 3,
+        "id": 112680646,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 3,
+        "id": 112680647,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 3,
+        "id": 112680648,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Un bel immeuble de bureau où il devait faire bon venir travailler au petit matin, entouré de ses collègues anonymes pour accomplir on ne sait trop quel but global et avec pour seule préoccupation : sa propre survie. Vous vous dites que les choses n'ont peut-être finalement pas tant changé que ça...",
+          "name": "Immeuble délabré",
+          "type": 49,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 9,
+        "y": 3,
+        "id": 112680649,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 3,
+        "id": 112680650,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 3,
+        "id": 112680651,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 3,
+        "id": 112680652,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 3,
+        "id": 112680653,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 3,
+        "id": 112680654,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 3,
+        "id": 112680655,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 3,
+        "id": 112680656,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 3,
+        "id": 112680657,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 3,
+        "id": 112680658,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 3,
+        "id": 112680659,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 3,
+        "id": 112680660,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 3,
+        "id": 112680661,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 3,
+        "id": 112680662,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 3,
+        "id": 112680663,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 3,
+        "id": 112680664,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 3,
+        "id": 112680665,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 3,
+        "id": 112680666,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 4,
+        "id": 112680667,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 4,
+        "id": 112680668,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 4,
+        "id": 112680669,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 4,
+        "id": 112680670,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 4,
+        "id": 112680671,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 4,
+        "id": 112680672,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 4,
+        "id": 112680673,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 4,
+        "id": 112680674,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 4,
+        "id": 112680675,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 4,
+        "id": 112680676,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 4,
+        "id": 112680677,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 4,
+        "id": 112680678,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 4,
+        "id": 112680679,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 4,
+        "id": 112680680,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 4,
+        "id": 112680681,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 4,
+        "id": 112680682,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 4,
+        "id": 112680683,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 4,
+        "id": 112680684,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 4,
+        "id": 112680685,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 4,
+        "id": 112680686,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 4,
+        "id": 112680687,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 4,
+        "id": 112680688,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 4,
+        "id": 112680689,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 4,
+        "id": 112680690,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 4,
+        "id": 112680691,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 4,
+        "id": 112680692,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 4,
+        "id": 112680693,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 5,
+        "id": 112680694,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 5,
+        "id": 112680695,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 5,
+        "id": 112680696,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 5,
+        "id": 112680697,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 5,
+        "id": 112680698,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 5,
+        "id": 112680699,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 5,
+        "id": 112680700,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 5,
+        "id": 112680701,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 5,
+        "id": 112680702,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 5,
+        "id": 112680703,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 5,
+        "id": 112680704,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 5,
+        "id": 112680705,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 5,
+        "id": 112680706,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 5,
+        "id": 112680707,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 5,
+        "id": 112680708,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 5,
+        "id": 112680709,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 5,
+        "id": 112680710,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 5,
+        "id": 112680711,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 5,
+        "id": 112680712,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 5,
+        "id": 112680713,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 5,
+        "id": 112680714,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 5,
+        "id": 112680715,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 5,
+        "id": 112680716,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 5,
+        "id": 112680717,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 5,
+        "id": 112680718,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Ce petit magasin proposait toutes sortes de produits de consommation courants : nourriture, boissons, produits d'entretien... Ouvert 24h/24 et 7j/7 si on en croit ce qui est imprimé sur la vitrine. Le trou béant dans la façade lui donne raison.",
+          "name": "Mini-market",
+          "type": 42,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 25,
+        "y": 5,
+        "id": 112680719,
+        "nvt": false,
+        "tag": null,
+        "danger": 2
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 5,
+        "id": 112680720,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 6,
+        "id": 112680721,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 6,
+        "id": 112680722,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 6,
+        "id": 112680723,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 6,
+        "id": 112680724,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 6,
+        "id": 112680725,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 6,
+        "id": 112680726,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 6,
+        "id": 112680727,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 6,
+        "id": 112680728,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 6,
+        "id": 112680729,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 6,
+        "id": 112680730,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 6,
+        "id": 112680731,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 6,
+        "id": 112680732,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 6,
+        "id": 112680733,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 6,
+        "id": 112680734,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 6,
+        "id": 112680735,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 6,
+        "id": 112680736,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 6,
+        "id": 112680737,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 6,
+        "id": 112680738,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 6,
+        "id": 112680739,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 6,
+        "id": 112680740,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 6,
+        "id": 112680741,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 6,
+        "id": 112680742,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 6,
+        "id": 112680743,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 6,
+        "id": 112680744,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 6,
+        "id": 112680745,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 6,
+        "id": 112680746,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 6,
+        "id": 112680747,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 7,
+        "id": 112680748,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 7,
+        "id": 112680749,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 7,
+        "id": 112680750,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 7,
+        "id": 112680751,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 7,
+        "id": 112680752,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 7,
+        "id": 112680753,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 7,
+        "id": 112680754,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 7,
+        "id": 112680755,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 7,
+        "id": 112680756,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 7,
+        "id": 112680757,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 7,
+        "id": 112680758,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 7,
+        "id": 112680759,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 7,
+        "id": 112680760,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 7,
+        "id": 112680761,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 7,
+        "id": 112680762,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 7,
+        "id": 112680763,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 7,
+        "id": 112680764,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 7,
+        "id": 112680765,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 7,
+        "id": 112680766,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 7,
+        "id": 112680767,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 7,
+        "id": 112680768,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 7,
+        "id": 112680769,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 7,
+        "id": 112680770,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 7,
+        "id": 112680771,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 7,
+        "id": 112680772,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 7,
+        "id": 112680773,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 7,
+        "id": 112680774,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 8,
+        "id": 112680775,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 8,
+        "id": 112680776,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 8,
+        "id": 112680777,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 8,
+        "id": 112680778,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 8,
+        "id": 112680779,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 8,
+        "id": 112680780,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 8,
+        "id": 112680781,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 8,
+        "id": 112680782,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 8,
+        "id": 112680783,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 8,
+        "id": 112680784,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 8,
+        "id": 112680785,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 8,
+        "id": 112680786,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 8,
+        "id": 112680787,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 8,
+        "id": 112680788,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 8,
+        "id": 112680789,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 8,
+        "id": 112680790,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 8,
+        "id": 112680791,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 8,
+        "id": 112680792,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 8,
+        "id": 112680793,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 8,
+        "id": 112680794,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 8,
+        "id": 112680795,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 8,
+        "id": 112680796,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 8,
+        "id": 112680797,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 8,
+        "id": 112680798,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 8,
+        "id": 112680799,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 8,
+        "id": 112680800,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 8,
+        "id": 112680801,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 9,
+        "id": 112680802,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 9,
+        "id": 112680803,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 9,
+        "id": 112680804,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 9,
+        "id": 112680805,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 9,
+        "id": 112680806,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 9,
+        "id": 112680807,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 9,
+        "id": 112680808,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 9,
+        "id": 112680809,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 9,
+        "id": 112680810,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 9,
+        "id": 112680811,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 9,
+        "id": 112680812,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 9,
+        "id": 112680813,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 9,
+        "id": 112680814,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 9,
+        "id": 112680815,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 9,
+        "id": 112680816,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 9,
+        "id": 112680817,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 9,
+        "id": 112680818,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 9,
+        "id": 112680819,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 9,
+        "id": 112680820,
+        "nvt": false,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 9,
+        "id": 112680821,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 9,
+        "id": 112680822,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 9,
+        "id": 112680823,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 9,
+        "id": 112680824,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 9,
+        "id": 112680825,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 9,
+        "id": 112680826,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 9,
+        "id": 112680827,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 9,
+        "id": 112680828,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 10,
+        "id": 112680829,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 10,
+        "id": 112680830,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 10,
+        "id": 112680831,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 10,
+        "id": 112680832,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 10,
+        "id": 112680833,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 10,
+        "id": 112680834,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 10,
+        "id": 112680835,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 10,
+        "id": 112680836,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 10,
+        "id": 112680837,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 10,
+        "id": 112680838,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 10,
+        "id": 112680839,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 10,
+        "id": 112680840,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 10,
+        "id": 112680841,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 10,
+        "id": 112680842,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 10,
+        "id": 112680843,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 10,
+        "id": 112680844,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Un trou dans le sol vaguement <strong>dissimulé</strong> par quelques planches et du sable. Il débouche sur une large caverne humide remplie de <strong>débris en tous genres</strong>, résultats de <strong>pillages dans une ville voisine</strong>, probablement. Qui sait si <strong>votre ville</strong> ne s'est pas construite sur ces pillages ? Peut-être que les <strong>premiers citoyens</strong> ont participé à ces attaques...",
+          "name": "Cache de contrebandiers",
+          "type": 33,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 16,
+        "y": 10,
+        "id": 112680845,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 10,
+        "id": 112680846,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 10,
+        "id": 112680847,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 10,
+        "id": 112680848,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 10,
+        "id": 112680849,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 10,
+        "id": 112680850,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 10,
+        "id": 112680851,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 10,
+        "id": 112680852,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 10,
+        "id": 112680853,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 10,
+        "id": 112680854,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 10,
+        "id": 112680855,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 11,
+        "id": 112680856,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 11,
+        "id": 112680857,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 11,
+        "id": 112680858,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 11,
+        "id": 112680859,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 11,
+        "id": 112680860,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 11,
+        "id": 112680861,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 11,
+        "id": 112680862,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 11,
+        "id": 112680863,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 11,
+        "id": 112680864,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 11,
+        "id": 112680865,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 11,
+        "id": 112680866,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 11,
+        "id": 112680867,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 11,
+        "id": 112680868,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 11,
+        "id": 112680869,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 11,
+        "id": 112680870,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 11,
+        "id": 112680871,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 11,
+        "id": 112680872,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 11,
+        "id": 112680873,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 11,
+        "id": 112680874,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 11,
+        "id": 112680875,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 11,
+        "id": 112680876,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 11,
+        "id": 112680877,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 11,
+        "id": 112680878,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 11,
+        "id": 112680879,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 11,
+        "id": 112680880,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 11,
+        "id": 112680881,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 11,
+        "id": 112680882,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 12,
+        "id": 112680883,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 12,
+        "id": 112680884,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 12,
+        "id": 112680885,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 12,
+        "id": 112680886,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 12,
+        "id": 112680887,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 12,
+        "id": 112680888,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Une bonne planque, c'est certain. Le type qui a monté ce camp savait comment mettre ses fesses à l'abri des zombies : camouflage naturel, bonne visibilité alentours, plusieurs issues et même un trou pour se cacher sous terre au besoin. Le nom « Shenji » est brodé dans la toile de la tente.",
+          "name": "Tente d'un citoyen",
+          "type": 50,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 6,
+        "y": 12,
+        "id": 112680889,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 12,
+        "id": 112680890,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 12,
+        "id": 112680891,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 12,
+        "id": 112680892,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 12,
+        "id": 112680893,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 12,
+        "id": 112680894,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 12,
+        "id": 112680895,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 12,
+        "id": 112680896,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 12,
+        "id": 112680897,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 12,
+        "id": 112680898,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 12,
+        "id": 112680899,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 12,
+        "id": 112680900,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 12,
+        "id": 112680901,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 12,
+        "id": 112680902,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 12,
+        "id": 112680903,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 12,
+        "id": 112680904,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 12,
+        "id": 112680905,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 12,
+        "id": 112680906,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 12,
+        "id": 112680907,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 12,
+        "id": 112680908,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 12,
+        "id": 112680909,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 13,
+        "id": 112680910,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 13,
+        "id": 112680911,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 13,
+        "id": 112680912,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 13,
+        "id": 112680913,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 13,
+        "id": 112680914,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 13,
+        "id": 112680915,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 13,
+        "id": 112680916,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 13,
+        "id": 112680917,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 13,
+        "id": 112680918,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 13,
+        "id": 112680919,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 13,
+        "id": 112680920,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 13,
+        "id": 112680921,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 13,
+        "id": 112680922,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 13,
+        "id": 112680923,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 13,
+        "id": 112680924,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 13,
+        "id": 112680925,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 13,
+        "id": 112680926,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 13,
+        "id": 112680927,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 13,
+        "id": 112680928,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 13,
+        "id": 112680929,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 13,
+        "id": 112680930,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 13,
+        "id": 112680931,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 13,
+        "id": 112680932,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 13,
+        "id": 112680933,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 13,
+        "id": 112680934,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 13,
+        "id": 112680935,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 13,
+        "id": 112680936,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 14,
+        "id": 112680937,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 14,
+        "id": 112680938,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 14,
+        "id": 112680939,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 14,
+        "id": 112680940,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 14,
+        "id": 112680941,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 14,
+        "id": 112680942,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 14,
+        "id": 112680943,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 14,
+        "id": 112680944,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 14,
+        "id": 112680945,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 14,
+        "id": 112680946,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 14,
+        "id": 112680947,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 14,
+        "id": 112680948,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 14,
+        "id": 112680949,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 14,
+        "id": 112680950,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 14,
+        "id": 112680951,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 14,
+        "id": 112680952,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 14,
+        "id": 112680953,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 14,
+        "id": 112680954,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 14,
+        "id": 112680955,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 14,
+        "id": 112680956,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 14,
+        "id": 112680957,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 14,
+        "id": 112680958,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 14,
+        "id": 112680959,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Une enseigne de la chaîne de magasins Brian Fargo. On y trouve généralement tout ce qu'il faut pour nettoyer et entretenir sa maison. Les plus démunis y trouveront de quoi manger...",
+          "name": "Epicerie Fargo",
+          "type": 41,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 23,
+        "y": 14,
+        "id": 112680960,
+        "nvt": false,
+        "tag": 5
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 14,
+        "id": 112680961,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 14,
+        "id": 112680962,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 14,
+        "id": 112680963,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 15,
+        "id": 112680964,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 15,
+        "id": 112680965,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 15,
+        "id": 112680966,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 15,
+        "id": 112680967,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 15,
+        "id": 112680968,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 15,
+        "id": 112680969,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 15,
+        "id": 112680970,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 15,
+        "id": 112680971,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 15,
+        "id": 112680972,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 15,
+        "id": 112680973,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 15,
+        "id": 112680974,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 15,
+        "id": 112680975,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 15,
+        "id": 112680976,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 15,
+        "id": 112680977,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 15,
+        "id": 112680978,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 15,
+        "id": 112680979,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 15,
+        "id": 112680980,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 15,
+        "id": 112680981,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 15,
+        "id": 112680982,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 15,
+        "id": 112680983,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 15,
+        "id": 112680984,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 15,
+        "id": 112680985,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 15,
+        "id": 112680986,
+        "nvt": false,
+        "tag": 5,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 15,
+        "id": 112680987,
+        "nvt": false,
+        "tag": 5,
+        "danger": 2
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 15,
+        "id": 112680988,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 15,
+        "id": 112680989,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 15,
+        "id": 112680990,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 16,
+        "id": 112680991,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 16,
+        "id": 112680992,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 16,
+        "id": 112680993,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 16,
+        "id": 112680994,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 16,
+        "id": 112680995,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 16,
+        "id": 112680996,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 16,
+        "id": 112680997,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 16,
+        "id": 112680998,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Vous vous demandez quel genre de personne pouvait bien venir passer sa nuit dans un trou aussi paumé que ce motel miteux. Sans doute le genre : représentant pour une obscure société de livraison fuyant un passé qui le rattrapera tôt ou tard. « Faudra que je pense à vérifier la chambre 215, au cas où », pensez-vous, sans trop savoir pourquoi.",
+          "name": "Motel « Dusk »",
+          "type": 51,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 8,
+        "y": 16,
+        "id": 112680999,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 16,
+        "id": 112681000,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 16,
+        "id": 112681001,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 16,
+        "id": 112681002,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 16,
+        "id": 112681003,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 16,
+        "id": 112681004,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 16,
+        "id": 112681005,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 16,
+        "id": 112681006,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Ca ne ressemble plus vraiment à un bar, mais la présence d'une enseigne à demi enfouie dans le sable et d'un comptoir ne laisse pas trop planer le doute. La plupart des bouteilles sont <strong>cassées</strong>, mais on doit pouvoir y trouver des choses utiles...",
+          "name": "Bar miteux",
+          "type": 9,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 16,
+        "y": 16,
+        "id": 112681007,
+        "nvt": false,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 16,
+        "id": 112681008,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 16,
+        "id": 112681009,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 16,
+        "id": 112681010,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 16,
+        "id": 112681011,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 16,
+        "id": 112681012,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 16,
+        "id": 112681013,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Le rendez-vous branché du désert : venez goûter notre Nuka-Cola, spécialité de la maison, aux vrais extraits d'hormones animales.",
+          "name": "Atomic' Café",
+          "type": 38,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 23,
+        "y": 16,
+        "id": 112681014,
+        "nvt": false,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 16,
+        "id": 112681015,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 16,
+        "id": 112681016,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 16,
+        "id": 112681017,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 17,
+        "id": 112681018,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 17,
+        "id": 112681019,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 17,
+        "id": 112681020,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 17,
+        "id": 112681021,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 17,
+        "id": 112681022,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 17,
+        "id": 112681023,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 17,
+        "id": 112681024,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 17,
+        "id": 112681025,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Le numéro est à moitié effacé, mais il s'agissait vraisemblablement de l'<strong>abri 14</strong>. Si on en juge par les corps décrépis à l'intérieur, le système de fermeture du sas <strong>n'a pas dû fonctionner comme prévu</strong>. Ça arrive.",
+          "name": "Abri anti-atomique",
+          "type": 10,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 8,
+        "y": 17,
+        "id": 112681026,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 17,
+        "id": 112681027,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 17,
+        "id": 112681028,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 17,
+        "id": 112681029,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 17,
+        "id": 112681030,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 17,
+        "id": 112681031,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 17,
+        "id": 112681032,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 17,
+        "id": 112681033,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 17,
+        "id": 112681034,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 17,
+        "id": 112681035,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 17,
+        "id": 112681036,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 17,
+        "id": 112681037,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 17,
+        "id": 112681038,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 17,
+        "id": 112681039,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 17,
+        "id": 112681040,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 17,
+        "id": 112681041,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 17,
+        "id": 112681042,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 17,
+        "id": 112681043,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 17,
+        "id": 112681044,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 18,
+        "id": 112681045,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 18,
+        "id": 112681046,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 18,
+        "id": 112681047,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 18,
+        "id": 112681048,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 18,
+        "id": 112681049,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 18,
+        "id": 112681050,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 18,
+        "id": 112681051,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 18,
+        "id": 112681052,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 18,
+        "id": 112681053,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 18,
+        "id": 112681054,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 18,
+        "id": 112681055,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 18,
+        "id": 112681056,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 18,
+        "id": 112681057,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 18,
+        "id": 112681058,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": {
+          "desc": "Bâtiment à explorer",
+          "name": "Hôtel abandonné",
+          "type": 101,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 14,
+        "y": 18,
+        "id": 112681059,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 18,
+        "id": 112681060,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 18,
+        "id": 112681061,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 18,
+        "id": 112681062,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 18,
+        "id": 112681063,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 18,
+        "id": 112681064,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 18,
+        "id": 112681065,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 18,
+        "id": 112681066,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 18,
+        "id": 112681067,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 18,
+        "id": 112681068,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 18,
+        "id": 112681069,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 18,
+        "id": 112681070,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 18,
+        "id": 112681071,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 19,
+        "id": 112681072,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 19,
+        "id": 112681073,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 19,
+        "id": 112681074,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 19,
+        "id": 112681075,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 19,
+        "id": 112681076,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 19,
+        "id": 112681077,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 19,
+        "id": 112681078,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 19,
+        "id": 112681079,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 19,
+        "id": 112681080,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 19,
+        "id": 112681081,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 19,
+        "id": 112681082,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 19,
+        "id": 112681083,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 19,
+        "id": 112681084,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 19,
+        "id": 112681085,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 19,
+        "id": 112681086,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 19,
+        "id": 112681087,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 19,
+        "id": 112681088,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 19,
+        "id": 112681089,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 19,
+        "id": 112681090,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 19,
+        "id": 112681091,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 19,
+        "id": 112681092,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 19,
+        "id": 112681093,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 19,
+        "id": 112681094,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 19,
+        "id": 112681095,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 19,
+        "id": 112681096,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 19,
+        "id": 112681097,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 19,
+        "id": 112681098,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 20,
+        "id": 112681099,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 20,
+        "id": 112681100,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 20,
+        "id": 112681101,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 20,
+        "id": 112681102,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 20,
+        "id": 112681103,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 20,
+        "id": 112681104,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Ha ça, ils étaient sûrement préparés à tout, les soldats installés ici : armes, provisions et périmètre de sécurité de 150m. Sauf peut-être au fait que leur lieutenant comptait les dévorer pendant la nuit. Non franchement, un bon mur et une bonne dictature des familles, rien de tel pour survivre ici.",
+          "name": "Avant-poste militaire",
+          "type": 55,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 6,
+        "y": 20,
+        "id": 112681105,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 20,
+        "id": 112681106,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 20,
+        "id": 112681107,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 20,
+        "id": 112681108,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 20,
+        "id": 112681109,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 20,
+        "id": 112681110,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 20,
+        "id": 112681111,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 20,
+        "id": 112681112,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 20,
+        "id": 112681113,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 20,
+        "id": 112681114,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 20,
+        "id": 112681115,
+        "nvt": false,
+        "tag": null,
+        "danger": 3
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 20,
+        "id": 112681116,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 20,
+        "id": 112681117,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 20,
+        "id": 112681118,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 20,
+        "id": 112681119,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 20,
+        "id": 112681120,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 20,
+        "id": 112681121,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 20,
+        "id": 112681122,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 20,
+        "id": 112681123,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 20,
+        "id": 112681124,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 20,
+        "id": 112681125,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 21,
+        "id": 112681126,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 21,
+        "id": 112681127,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 21,
+        "id": 112681128,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 21,
+        "id": 112681129,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 21,
+        "id": 112681130,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "En voilà, une sacré aubaine ! <strong>Un puits encore en état de marche</strong>, complètement perdu au milieu de nulle part. Et personne avec son Registre à la main pour vous dire « fais pas ci, fais pas ça, prends pas trop d'eau, gnagnagna... ». Allez, une petite rasade, ça sera notre petit secret.",
+          "name": "Puits abandonné",
+          "type": 60,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 5,
+        "y": 21,
+        "id": 112681131,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 6,
+        "y": 21,
+        "id": 112681132,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 21,
+        "id": 112681133,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Ha ça, ils étaient sûrement préparés à tout, les soldats installés ici : armes, provisions et périmètre de sécurité de 150m. Sauf peut-être au fait que leur lieutenant comptait les dévorer pendant la nuit. Non franchement, un bon mur et une bonne dictature des familles, rien de tel pour survivre ici.",
+          "name": "Avant-poste militaire",
+          "type": 55,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 8,
+        "y": 21,
+        "id": 112681134,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 21,
+        "id": 112681135,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 21,
+        "id": 112681136,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 21,
+        "id": 112681137,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 21,
+        "id": 112681138,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 21,
+        "id": 112681139,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 21,
+        "id": 112681140,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 21,
+        "id": 112681141,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 21,
+        "id": 112681142,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 21,
+        "id": 112681143,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 21,
+        "id": 112681144,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 21,
+        "id": 112681145,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 21,
+        "id": 112681146,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 21,
+        "id": 112681147,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 21,
+        "id": 112681148,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 21,
+        "id": 112681149,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 21,
+        "id": 112681150,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 21,
+        "id": 112681151,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 21,
+        "id": 112681152,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 22,
+        "id": 112681153,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 22,
+        "id": 112681154,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 22,
+        "id": 112681155,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 22,
+        "id": 112681156,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 22,
+        "id": 112681157,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 5,
+        "y": 22,
+        "id": 112681158,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 22,
+        "id": 112681161,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 22,
+        "id": 112681162,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 22,
+        "id": 112681164,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 22,
+        "id": 112681165,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 22,
+        "id": 112681166,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 22,
+        "id": 112681167,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 22,
+        "id": 112681168,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 22,
+        "id": 112681169,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 22,
+        "id": 112681170,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 22,
+        "id": 112681171,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 22,
+        "id": 112681172,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 22,
+        "id": 112681173,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 22,
+        "id": 112681174,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 22,
+        "id": 112681175,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 22,
+        "id": 112681176,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 22,
+        "id": 112681177,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 22,
+        "id": 112681178,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 22,
+        "id": 112681179,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 23,
+        "id": 112681180,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 23,
+        "id": 112681181,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 23,
+        "id": 112681182,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 3,
+        "y": 23,
+        "id": 112681183,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 23,
+        "id": 112681184,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 23,
+        "id": 112681188,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 23,
+        "id": 112681189,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 23,
+        "id": 112681191,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 23,
+        "id": 112681192,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 23,
+        "id": 112681193,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 23,
+        "id": 112681194,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 23,
+        "id": 112681195,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 23,
+        "id": 112681196,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 23,
+        "id": 112681197,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 23,
+        "id": 112681198,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 23,
+        "id": 112681199,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 23,
+        "id": 112681200,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 23,
+        "id": 112681201,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 23,
+        "id": 112681202,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 23,
+        "id": 112681203,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 23,
+        "id": 112681204,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 23,
+        "id": 112681205,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 23,
+        "id": 112681206,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 24,
+        "id": 112681207,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 24,
+        "id": 112681208,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 24,
+        "id": 112681209,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Ce char militaire est un peu une métaphore de la <strong>boîte de conserve</strong>, avec le soldat dans le rôle de la sardine et la centaine de zombies dans le rôle du citoyen affamé. C'est le citoyen qui a gagné.",
+          "name": "Char d'assaut en panne",
+          "type": 58,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 3,
+        "y": 24,
+        "id": 112681210,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 4,
+        "y": 24,
+        "id": 112681211,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 24,
+        "id": 112681215,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 24,
+        "id": 112681216,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 24,
+        "id": 112681217,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 24,
+        "id": 112681218,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 24,
+        "id": 112681219,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Il y a des réflexes qui ne pardonnent pas. Prenez par exemple le coup de la caverne : vous êtes poursuivi(e) et vous vous engouffrez bêtement dans une caverne pour vous mettre à l'abri. Le problème qui se pose alors : maintenant que vous êtes dans une impasse, combien de temps allez-vous pouvoir hurler en attendant que vos poursuivants vous rattrapent ? Le type au fond, à qui il manque la moitié du visage, n'a pas dû crier bien longtemps.",
+          "name": "Caverne anciennement habitée",
+          "type": 57,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 13,
+        "y": 24,
+        "id": 112681220,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 24,
+        "id": 112681221,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 24,
+        "id": 112681222,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 24,
+        "id": 112681223,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 24,
+        "id": 112681224,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 24,
+        "id": 112681225,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 24,
+        "id": 112681226,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 24,
+        "id": 112681227,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 24,
+        "id": 112681228,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 24,
+        "id": 112681229,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 24,
+        "id": 112681230,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 24,
+        "id": 112681231,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 24,
+        "id": 112681232,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 24,
+        "id": 112681233,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 25,
+        "id": 112681234,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 25,
+        "id": 112681235,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 25,
+        "id": 112681236,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 25,
+        "id": 112681241,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 25,
+        "id": 112681242,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 9,
+        "y": 25,
+        "id": 112681243,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 25,
+        "id": 112681244,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 25,
+        "id": 112681245,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 25,
+        "id": 112681246,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 25,
+        "id": 112681247,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 25,
+        "id": 112681248,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 25,
+        "id": 112681249,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 25,
+        "id": 112681250,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 25,
+        "id": 112681251,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 25,
+        "id": 112681252,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 25,
+        "id": 112681253,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 25,
+        "id": 112681254,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 25,
+        "id": 112681255,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 25,
+        "id": 112681256,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "En voilà, une sacré aubaine ! <strong>Un puits encore en état de marche</strong>, complètement perdu au milieu de nulle part. Et personne avec son Registre à la main pour vous dire « fais pas ci, fais pas ça, prends pas trop d'eau, gnagnagna... ». Allez, une petite rasade, ça sera notre petit secret.",
+          "name": "Puits abandonné",
+          "type": 60,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 23,
+        "y": 25,
+        "id": 112681257,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 25,
+        "id": 112681258,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 25,
+        "id": 112681259,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 25,
+        "id": 112681260,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 0,
+        "y": 26,
+        "id": 112681261,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 1,
+        "y": 26,
+        "id": 112681262,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 2,
+        "y": 26,
+        "id": 112681263,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 7,
+        "y": 26,
+        "id": 112681268,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 8,
+        "y": 26,
+        "id": 112681269,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": {
+          "desc": "Il y a des réflexes qui ne pardonnent pas. Prenez par exemple le coup de la caverne : vous êtes poursuivi(e) et vous vous engouffrez bêtement dans une caverne pour vous mettre à l'abri. Le problème qui se pose alors : maintenant que vous êtes dans une impasse, combien de temps allez-vous pouvoir hurler en attendant que vos poursuivants vous rattrapent ? Le type au fond, à qui il manque la moitié du visage, n'a pas dû crier bien longtemps.",
+          "name": "Caverne anciennement habitée",
+          "type": 57,
+          "dig": 0,
+          "camped": false
+        },
+        "x": 9,
+        "y": 26,
+        "id": 112681270,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 10,
+        "y": 26,
+        "id": 112681271,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 11,
+        "y": 26,
+        "id": 112681272,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 12,
+        "y": 26,
+        "id": 112681273,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 13,
+        "y": 26,
+        "id": 112681274,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 14,
+        "y": 26,
+        "id": 112681275,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 15,
+        "y": 26,
+        "id": 112681276,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 16,
+        "y": 26,
+        "id": 112681277,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 17,
+        "y": 26,
+        "id": 112681278,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 18,
+        "y": 26,
+        "id": 112681279,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 19,
+        "y": 26,
+        "id": 112681280,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 20,
+        "y": 26,
+        "id": 112681281,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 21,
+        "y": 26,
+        "id": 112681282,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 22,
+        "y": 26,
+        "id": 112681283,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 23,
+        "y": 26,
+        "id": 112681284,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 24,
+        "y": 26,
+        "id": 112681285,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 25,
+        "y": 26,
+        "id": 112681286,
+        "nvt": true,
+        "tag": null
+      },
+      {
+        "building": null,
+        "x": 26,
+        "y": 26,
+        "id": 112681287,
+        "nvt": true,
+        "tag": null
+      }
+    ],
+    "bonusPts": 0,
+    "conspiracy": false,
+    "custom": false
+  },
+  "isGhost": false
+}

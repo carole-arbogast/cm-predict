@@ -1,11 +1,17 @@
-// import App from 'next/app'
+import React from "react";
+import { AppProps } from "next/app";
 import { createGlobalStyle } from "styled-components";
+import { Provider } from "next-auth/client";
 
-function MyApp({ Component, pageProps }) {
+const site = process.env.VERCEL_URL || "http://localhost:3000";
+
+function MyApp({ Component, pageProps }: AppProps) {
+  const { session } = pageProps;
+
   return (
-    <>
-      <GlobalStyle /> <Component {...pageProps} />{" "}
-    </>
+    <Provider options={{ site }} session={session}>
+      <GlobalStyle /> <Component {...pageProps} />
+    </Provider>
   );
 }
 
