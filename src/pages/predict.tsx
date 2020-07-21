@@ -20,8 +20,11 @@ interface FormValues {
   distance: number;
   zombies: number;
   building: string;
-  improvements: number;
-  od: number;
+  defence: {
+    improvements: number;
+    od: number;
+    previous: number;
+  };
   campers: number;
   tent: number;
   tomb: boolean;
@@ -29,13 +32,26 @@ interface FormValues {
   lighthouse: boolean;
   hood: boolean;
   devastation: boolean;
+  previousDefence?: number;
+}
+
+interface DefenceInfo {
+  maxDefence: number;
+  currentDefence: number;
+  od: number;
+  improvements: number;
 }
 
 function Predict() {
   const [currentDistance, setCurrentDistance] = React.useState<number>(0);
   const [currentJob, setCurrentJob] = React.useState<"ermite" | "capuche" | "autre">("autre");
-  // const [message, setMessage] = React.useState<string>("");
   const [scoreDifference, setScoreDifference] = React.useState<number>();
+  const [defenceInfo, setDefenceInfo] = React.useState<DefenceInfo>({
+    maxDefence: 11.6,
+    currentDefence: 0,
+    od: 0,
+    improvements: 0,
+  });
 
   const filteredBuildings = buildings.filter((building) => {
     return (
@@ -51,9 +67,9 @@ function Predict() {
       0
     );
     const zombies = values.hood ? -(0.6 * values.zombies) : -(1.4 * values.zombies);
-    const od = 1.8 * values.od;
+    const od = 1.8 * values.defence.od;
     const campers = hiddenCampers[values.campers];
-    const improvements = values.improvements;
+    const improvements = values.defence.improvements;
     const previousNightsMalus =
       values.previousNights > 0 && values.previousNights < 9
         ? previousNights.find((e) => e.nb === values.previousNights)[values.pro ? "cp" : "noob"]
@@ -111,8 +127,11 @@ function Predict() {
     distance: 1,
     zombies: 0,
     building: "",
-    improvements: 0,
-    od: 0,
+    defence: {
+      improvements: 0,
+      od: 0,
+      previous: 0,
+    },
     campers: 0,
     tent: 0,
     tomb: false,
@@ -125,6 +144,35 @@ function Predict() {
   const [score, setScore] = React.useState<number>(calculateScore(initialValues));
 
   const handleSubmit = (values: FormValues) => {
+    const getCurrentDefenceInfo = () => {
+      if (values.defence.od < 0 || values.defence.improvements < 0) {
+        return { maxDefence: 11.6, currentDefence: 0, od: 0, improvements: 0 };
+      } else {
+        const decimal =
+          values.defence.previous && values.defence.previous <= 11.6 && values.defence.previous >= 0
+            ? values.defence.previous.toString().split(".")[1]
+            : null;
+        const maxDefence =
+          decimal && values.previousNights !== 0 ? 8 + 3.6 - (0.8 - Number(decimal) / 10) : 11.6;
+        const currentDefence =
+          Math.round(
+            ((values.defence.previous - 3 >= 0 ? values.defence.previous - 3 : 0) +
+              (values.defence.od * 1.8 + values.defence.improvements)) *
+              10
+          ) / 10;
+        return {
+          maxDefence,
+          currentDefence,
+          od: values.defence.od,
+          improvements: values.defence.improvements,
+        };
+      }
+    };
+
+    console.log("current defence", getCurrentDefenceInfo());
+
+    setDefenceInfo(getCurrentDefenceInfo());
+
     setCurrentDistance(values.distance);
     if (values.job !== currentJob) {
       setCurrentJob(values.job);
@@ -182,6 +230,7 @@ function Predict() {
             filteredBuildings={filteredBuildings}
             initialValues={initialValues}
             currentJob={currentJob}
+            defenceInfo={defenceInfo}
           ></CampingPredictForm>
         </FormContainer>
       </Wrapper>
