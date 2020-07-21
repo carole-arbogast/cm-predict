@@ -34,7 +34,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"
             rel="stylesheet"
           />
         </Head>

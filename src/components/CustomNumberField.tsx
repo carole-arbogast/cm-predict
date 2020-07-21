@@ -3,20 +3,21 @@ import { Field } from "formik";
 import styled from "styled-components";
 
 interface Props {
-  onChange: (name: string, option: "dec" | "inc") => void;
+  onChange: (name: string, option: "dec" | "inc", step?: string) => void;
   name: string;
   min?: string;
   max?: string;
+  step?: string;
 }
 
-function CustomNumberField({ name, min, max, onChange }: Props) {
+function CustomNumberField({ name, min, max, onChange, step }: Props) {
   return (
     <NumberFieldWrapper>
-      <NumberFieldArrow onClick={() => onChange(name, "dec")}>
+      <NumberFieldArrow onClick={() => onChange(name, "dec", step)}>
         <img src="/images/small_dom_down.gif" alt="down-arrow"></img>
       </NumberFieldArrow>
-      <NumberField type="number" name={name} min={min} max={max}></NumberField>
-      <NumberFieldArrow onClick={() => onChange(name, "inc")}>
+      <NumberField step="0.1" type="number" name={name} min={min} max={max}></NumberField>
+      <NumberFieldArrow onClick={() => onChange(name, "inc", step)}>
         <img src="/images/small_dom_up.gif" alt="up-arrow"></img>
       </NumberFieldArrow>
     </NumberFieldWrapper>
@@ -30,7 +31,7 @@ const NumberFieldWrapper = styled.div`
 
 const NumberField = styled(Field)`
   -moz-appearance: textfield;
-  width: 2rem;
+  width: 2.5rem;
   text-align: center;
   padding: 0.25rem;
   background: #4a4a4a;
