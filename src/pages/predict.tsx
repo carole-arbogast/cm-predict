@@ -52,6 +52,7 @@ function Predict() {
     od: 0,
     improvements: 0,
   });
+  const [defenceLimit, setDefenceLimit] = React.useState<number>();
 
   const filteredBuildings = buildings.filter((building) => {
     return (
@@ -153,7 +154,7 @@ function Predict() {
             ? values.defence.previous.toString().split(".")[1]
             : null;
         const maxDefence =
-          decimal && values.previousNights !== 0 ? 8 + 3.6 - (0.8 - Number(decimal) / 10) : 11.6;
+          decimal && values.defence.previous > 3 ? 8 + 3.6 - (0.8 - Number(decimal) / 10) : 11.6;
         const currentDefence =
           Math.round(
             ((values.defence.previous - 3 >= 0 ? values.defence.previous - 3 : 0) +
@@ -169,9 +170,17 @@ function Predict() {
       }
     };
 
-    console.log("current defence", getCurrentDefenceInfo());
+    const defenceInfo = getCurrentDefenceInfo();
+    setDefenceInfo(defenceInfo);
 
-    setDefenceInfo(getCurrentDefenceInfo());
+    if (
+      !defenceLimit &&
+      (defenceInfo.currentDefence >= 10 || defenceInfo.currentDefence > defenceInfo.maxDefence)
+    ) {
+      setDefenceLimit(defenceInfo.currentDefence);
+    } else if (defenceLimit && defenceInfo.currentDefence < defenceLimit) {
+      setDefenceLimit(null);
+    }
 
     setCurrentDistance(values.distance);
     if (values.job !== currentJob) {
@@ -205,22 +214,27 @@ function Predict() {
     setScore(Math.round(displayedScore * 10) / 10);
   };
 
-  const message = scoreDisplays.filter((display) => {
+  const currentScore = scoreDisplays.filter((display) => {
     return score >= display.range[0] && score < display.range[1];
-  })[0].display;
+  })[0];
 
   return (
-    <>
+    <PageBackground>
       <Title>Camping Predict v2</Title>
 
       <Wrapper>
         <ResultDisplay>
-          <p>
-            Score: {score}/{currentJob === "ermite" ? "20" : "18"} (
+          <FinalScore>
+            Score:{" "}
+            <ColoredScore color={get(currentScore, "color", "inherit")}>{score}</ColoredScore>/
+            {currentJob === "ermite" ? "20" : "18"} (
             {scoreDifference && scoreDifference > 0 ? `+ ${scoreDifference}` : scoreDifference})
-          </p>
+          </FinalScore>
           <p>
-            {score > 0 ? score * 5 : 0}% : {message && message}
+            <ColoredScore color={get(currentScore, "color", "inherit")}>
+              {score > 0 ? score * 5 : 0}%{" "}
+            </ColoredScore>
+            : {currentScore && currentScore.display}
           </p>
         </ResultDisplay>
         <FormContainer>
@@ -231,15 +245,25 @@ function Predict() {
             initialValues={initialValues}
             currentJob={currentJob}
             defenceInfo={defenceInfo}
+            defenceLimit={defenceLimit}
           ></CampingPredictForm>
         </FormContainer>
       </Wrapper>
-    </>
+    </PageBackground>
   );
 }
 
+const PageBackground = styled.div`
+  background: url("/images/bg_big.jpg");
+  background-color: #040001;
+  color: #faf7f7;
+  background-position: top;
+  background-repeat: no-repeat;
+`;
+
 const Title = styled.h1`
   text-align: center;
+  padding: 1rem;
 `;
 
 const Wrapper = styled.div`
@@ -288,6 +312,15 @@ const FormContainer = styled.div`
 const Banner = styled.img`
   align-self: center;
   max-width: 100%;
+`;
+
+const FinalScore = styled.p`
+  font-weight: 600;
+`;
+
+const ColoredScore = styled.span<{ color: string }>`
+  font-weight: 600;
+  color: ${(props) => props.color};
 `;
 
 export default Predict;

@@ -53,6 +53,7 @@ interface Props {
   initialValues: FormValues;
   currentJob: "ermite" | "capuche" | "autre";
   defenceInfo: DefenceInfo;
+  defenceLimit: number;
 }
 
 export function CampingPredictForm({
@@ -61,6 +62,7 @@ export function CampingPredictForm({
   initialValues,
   currentJob,
   defenceInfo,
+  defenceLimit,
 }: Props) {
   const Schema = React.useMemo(
     () =>
@@ -155,7 +157,7 @@ export function CampingPredictForm({
             <SectionHeader>Général</SectionHeader>
 
             <FormSection>
-              <FlexWrapper wrap>
+              <FlexWrapper wrap={"true"}>
                 <FieldGroup>
                   <Label>Type de ville</Label>
                   <div>
@@ -236,7 +238,7 @@ export function CampingPredictForm({
             <SectionHeader>Case de camping</SectionHeader>
 
             <FormSection>
-              <FlexWrapper wrap>
+              <FlexWrapper wrap={"true"}>
                 <FieldGroup>
                   <Label>
                     <HordesIcon src="/images/item_tagger.gif"></HordesIcon> Distance (km)
@@ -313,29 +315,26 @@ export function CampingPredictForm({
                     )}
                   </FieldGroup>
 
-                  {values.previousNights > 0 && (
-                    <FieldGroup>
-                      <Label>
-                        <HordesIcon src="/images/h_city_up.gif"></HordesIcon>Aménagements de la
-                        veille
-                      </Label>
-                      <CustomNumberField
-                        name="defence.previous"
-                        min="0"
-                        max="11.6"
-                        step="0.1"
-                        onChange={handleNumberChange}
-                      />
-                      {get(errors, "defence.previous") && (
-                        <WarningMessage>{errors.defence.previous}</WarningMessage>
-                      )}
-                    </FieldGroup>
-                  )}
+                  <FieldGroup>
+                    <Label>
+                      <HordesIcon src="/images/h_city_up.gif"></HordesIcon>Aménagements de la veille
+                    </Label>
+                    <CustomNumberField
+                      name="defence.previous"
+                      min="0"
+                      max="11.6"
+                      step="0.1"
+                      onChange={handleNumberChange}
+                    />
+                    {get(errors, "defence.previous") && (
+                      <WarningMessage>{errors.defence.previous}</WarningMessage>
+                    )}
+                  </FieldGroup>
                 </div>
 
                 <DefenceRecap>
                   Total :{" "}
-                  <Score warning={defenceInfo.currentDefence > defenceInfo.maxDefence}>
+                  <Score warning={defenceLimit && defenceInfo.currentDefence > defenceLimit}>
                     {defenceInfo.currentDefence}{" "}
                   </Score>{" "}
                   /{Math.round(defenceInfo.maxDefence * 10) / 10}
@@ -345,7 +344,7 @@ export function CampingPredictForm({
               {errors && errors.defence === "string" && (
                 <WarningMessage>{errors.defence}</WarningMessage>
               )}
-              {defenceInfo.currentDefence > defenceInfo.maxDefence && (
+              {defenceLimit && defenceInfo.currentDefence > defenceLimit && (
                 <WarningMessage>Vous avez trop d&apos;améliorations ou d&apos;OD. </WarningMessage>
               )}
 
@@ -358,7 +357,7 @@ export function CampingPredictForm({
             <SectionHeader>Bonus/Malus</SectionHeader>
 
             <FormSection>
-              <FlexWrapper wrap>
+              <FlexWrapper wrap={"true"}>
                 <FieldGroup>
                   <Label>
                     <HordesIcon src="/images/item_smelly_meat.gif"></HordesIcon>Tente/pelure
@@ -472,13 +471,13 @@ const FlexWrapper = styled.div<{
   direction?: Direction;
   justify?: Alignments;
   align?: Alignments;
-  wrap?: boolean;
+  wrap?: "true" | "false";
 }>`
   display: flex;
   justify-content: ${(props) => (props.justify ? props.justify : "flex-start")};
   align-items: ${(props) => (props.align ? props.align : "flex-start")};
   flex-direction: ${(props) => (props.direction ? props.direction : "row")};
-  flex-wrap: ${(props) => (props.wrap ? "wrap" : "no-wrap")};
+  flex-wrap: ${(props) => (props.wrap === "true" ? "wrap" : "no-wrap")};
 `;
 
 const DefenceRecap = styled.div`
