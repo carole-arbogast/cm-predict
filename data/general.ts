@@ -88,46 +88,54 @@ export const scoreDisplays = [
     display:
       "Vous estimez que vos chances de survie ici sont quasi nulles… Autant gober du cyanure tout de suite.",
     code: "poison",
+    color: "#f5211d",
   },
   {
     range: [2, 6],
     display:
       "Vous estimez que vos chances de survie ici sont très faibles. Peut-être que vous aimez jouer à pile ou face ?",
     code: "reallyLow",
+    color: "#dc6724",
   },
   {
     range: [6, 10],
     display: "Vous estimez que vos chances de survie ici sont faibles. Difficile à dire.",
     code: "low",
+    color: "#fca934",
   },
   {
     range: [10, 13],
     display:
       "Vous estimez que vos chances de survie ici sont limitées, bien que ça puisse se tenter. Mais un accident est vite arrivé…",
     code: "limited",
+    color: "#fcd077",
   },
   {
     range: [13, 16],
     display:
       "Vous estimez que vos chances de survie ici sont à peu près satisfaisantes, pour peu qu'aucun imprévu ne vous tombe dessus.",
     code: "satisfactory",
+    color: "#e0dd72",
   },
   {
     range: [16, 18.9],
     display:
       "Vous estimez que vos chances de survie ici sont correctes : il ne vous reste plus qu'à croiser les doigts !",
     code: "decent",
+    color: "#ccdb7f",
   },
   {
     range: [18, 20],
     display:
       "Vous estimez que vos chances de survie ici sont élevées : vous devriez pouvoir passer la nuit ici. (Ermite)",
     code: "high",
+    color: "#c7dc61",
   },
   {
     range: [20, Infinity],
     display:
       "Vous estimez que vos chances de survie ici sont optimales : Personne ne vous verrait même en vous pointant du doigt. (Ermite)",
     code: "optimal",
+    color: "#9ecb29",
   },
 ];

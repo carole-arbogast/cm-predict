@@ -25,11 +25,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: "Raleway";
     padding-bottom: 1.5rem;
-    background: url("/images/bg_big.jpg");
-    background-color: #040001;
-    color:#faf7f7;
-    background-position: top;
-    background-repeat: no-repeat;
+  }
+  img{
     user-select: none;
   }
   * {
@@ -40,7 +37,9 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   } 
-
+  h1{
+    margin: 0;
+  }
   h2{
     margin: 0;
   }
