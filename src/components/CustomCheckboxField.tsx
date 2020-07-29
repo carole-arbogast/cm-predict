@@ -10,11 +10,11 @@ interface Props {
 function CustomCheckBoxField({ name, isChecked }: Props) {
   return (
     <StyledCheckboxLabel isChecked={isChecked}>
-      <Box isChecked={isChecked}>
-        {isChecked && <img src="/images/check.gif" alt="check"></img>}
-      </Box>
       <Box isChecked={!isChecked}>
         {!isChecked && <img src="/images/cross.gif" alt="cross"></img>}
+      </Box>
+      <Box isChecked={isChecked}>
+        {isChecked && <img src="/images/check.gif" alt="check"></img>}
       </Box>
       <Checkbox type="checkbox" name={name}></Checkbox>
     </StyledCheckboxLabel>

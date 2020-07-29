@@ -71,6 +71,7 @@ function Predict() {
     const od = 1.8 * values.defence.od;
     const campers = hiddenCampers[values.campers];
     const improvements = values.defence.improvements;
+    const previousDefence = values.defence.previous;
     const previousNightsMalus =
       values.previousNights > 0 && values.previousNights < 9
         ? previousNights.find((e) => e.nb === values.previousNights)[values.pro ? "cp" : "noob"]
@@ -112,6 +113,7 @@ function Predict() {
       campers,
       totalBonus,
       improvements,
+      previousDefence,
       buildingBonus,
       previousNightsMalus,
       cityType,
@@ -136,7 +138,7 @@ function Predict() {
     campers: 0,
     tent: 0,
     tomb: false,
-    night: false,
+    night: true,
     lighthouse: false,
     hood: false,
     devastation: false,
