@@ -1,16 +1,17 @@
+import get from "lodash/get";
+import sum from "lodash/sum";
 import React from "react";
-import CampingPredictForm from "../components/CampingPredictForm";
+import styled from "styled-components";
+
+import buildings from "../../data/buildings.json";
 import {
+  bonusInfo,
   distanceInfo,
   hiddenCampers,
-  bonusInfo,
   previousNights,
   scoreDisplays,
 } from "../../data/general";
-import buildings from "../../data/buildings.json";
-import sum from "lodash/sum";
-import get from "lodash/get";
-import styled from "styled-components";
+import CampingPredictForm from "../components/CampingPredictForm";
 
 interface FormValues {
   cityType: "RE" | "Pandé";
@@ -82,7 +83,11 @@ function Predict() {
     const getBuildingBonus = () => {
       if (values.building) {
         const match = buildings.find((b) => b.name === values.building);
-        if (values.distance >= match.minDistance && values.distance <= match.maxDistance) {
+
+        if (
+          match.anywhere ||
+          (values.distance >= match.minDistance && values.distance <= match.maxDistance)
+        ) {
           return match.bonus;
         }
       } else {
@@ -261,6 +266,7 @@ const PageBackground = styled.div`
   color: #faf7f7;
   background-position: top;
   background-repeat: no-repeat;
+  padding-bottom: 1.5rem;
 `;
 
 const Title = styled.h1`

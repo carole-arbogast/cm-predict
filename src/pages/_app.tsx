@@ -1,7 +1,7 @@
-import React from "react";
-import { AppProps } from "next/app";
-import { createGlobalStyle } from "styled-components";
 import { Provider } from "next-auth/client";
+import { AppProps } from "next/app";
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
 const site = process.env.VERCEL_URL || "http://localhost:3000";
 
@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-family: "Raleway";
-    padding-bottom: 1.5rem;
   }
   img{
     user-select: none;
